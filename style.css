@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+html{
+    background: #ffc600;
+    box-sizing:border-box;
+    font-size: 20px;
+    font-weight: 200;
+    background-size: cover;
+}
+
+.heading{
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 2px grey;
+    max-width: 400px;
+    margin: auto;
+    padding:2rem;
+    font-family:'Prata';
+    border: 2px solid  #F7F7F7 ;
+    border-bottom-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    margin-top: 1.5rem;
+    box-shadow: 3px 3px 5px whitesmoke;
+}
+
+.input-field{
+    padding:0.5rem;
+    outline: 0;
+    text-align: center;
+    max-width: 750px;
+    margin: auto;
+    display: block;
+    position: relative;
+    border: 10px solid #F7F7F7;
+    height: 1.5rem;
+    width: 90%;
+    border-radius: 5px;
+    font-size: 2rem;
+    box-shadow: 0 0 5px rgba(168, 208, 226, 0.753);
+}
+
+.search-form{
+    margin: 50px auto;
+}
+
+/* List Items */
+.suggestions{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.suggestions li {
+    background: white;
+    list-style: none;
+    border-bottom: 2px solid #D8D8D8;
+    box-shadow: 0 0 10px rgba(0,0,0,0.14);
+    margin:auto;
+    padding: 20px;
+    transition: background 0.2s;
+    display: block;
+    text-transform: capitalize;
+    max-width: 700px;
+}
+
+.suggestions li:nth-child(even) {
+    transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
+    background: linear-gradient(to bottom,#ffffff) 0%,#EFEFEF 100%;
+}
+
+.suggestions li:nth-child(odd){
+    transform: perspective(100px) rotateX(-3deg) translateY(3px);
+    background: linear-gradient(to top,#ffffff 0%,#EFEFEF 100%);
+}
+
+.hl {
+    background: #ffc600;
+}
+  
+span.population {
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+}
+  
+.name{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
